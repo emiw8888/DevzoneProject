@@ -25,18 +25,17 @@ public class SessionOne {
         System.out.print("Enter a character value: ");
         Character charValue = scanner.next().charAt(0);
         System.out.print("Enter a string value: ");
-        /*bug of scanner*/scanner.nextLine();
+        /*bug of scanner*/
+        scanner.nextLine();
         String stringValue = scanner.nextLine();
         System.out.println("You entered the following values: ");
-        System.out.println(intValue.getClass().getSimpleName()+ ": " + intValue);
-        System.out.println(doubleValue.getClass().getSimpleName()+ ": " + doubleValue);
-        System.out.println(charValue.getClass().getSimpleName()+ ": " + charValue);
-        System.out.println(stringValue.getClass().getSimpleName()+ ": " + stringValue);
+        System.out.println(intValue.getClass().getSimpleName() + ": " + intValue);
+        System.out.println(doubleValue.getClass().getSimpleName() + ": " + doubleValue);
+        System.out.println(charValue.getClass().getSimpleName() + ": " + charValue);
+        System.out.println(stringValue.getClass().getSimpleName() + ": " + stringValue);
 
         //additional way
-        List<Object> list = List.of(intValue,doubleValue,charValue,stringValue);
-        list.forEach(e->{
-            System.out.println(e.getClass().getSimpleName() + ": " + e);
-        });
+        List<Object> list = List.of(intValue, doubleValue, charValue, stringValue);
+        list.forEach(e -> System.out.println(e.getClass().getSimpleName() + ": " + e));
     }
 }
