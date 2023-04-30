@@ -1,4 +1,4 @@
-package sessionOne;
+package session_one;
 
 import java.util.*;
 
@@ -14,7 +14,6 @@ public class SessionOne {
         System.out.println("valueInt: " + valueInt);
         System.out.println("valueString: " + valueString);
         System.out.println("valueDouble: " + valueDouble);
-
 
         //last task
         Scanner scanner = new Scanner(System.in);
