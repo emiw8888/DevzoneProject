@@ -15,10 +15,9 @@ public class Triangle extends GeometricShape {
     public void setHeight(double height) {
         this.height = height;
     }
-
     @Override
     public double getArea() {
-        return (getLengthOfSides() * getHeight()) / 2;
+        return (super.getLengthOfSides() * this.getHeight()) / 2;
     }
 
     @Override

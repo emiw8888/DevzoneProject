@@ -1,9 +1,12 @@
 package session_four;
 
 public class GeometricShape implements Cloneable {
-    private final int numberOfSides;
-    private final double lengthOfSides;
+    private int numberOfSides;
+    private double lengthOfSides;
     private double area;
+
+    public GeometricShape() {
+    }
 
     public GeometricShape(int numberOfSides, double lengthOfSides) {
         this.numberOfSides = numberOfSides;
