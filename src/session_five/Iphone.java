@@ -1,6 +1,6 @@
 package session_five;
 
-public class Iphone implements Phone{
+public class Iphone implements Phone {
 
 
     @Override

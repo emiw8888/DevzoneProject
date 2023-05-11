@@ -8,7 +8,7 @@ public class Main {
             new Triangle(5, 4),
             new Square(5));
         for (Shape shape : shapes) {
-            System.out.println(shape.getClass().getSimpleName() + ": " );
+            System.out.println(shape.getClass().getSimpleName() + ": ");
             System.out.println("Area: " + shape.calculateArea());
             System.out.println("Perimeter: " + shape.calculatePerimeter());
         }
